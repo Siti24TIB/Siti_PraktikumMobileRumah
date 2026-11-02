@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Palet Pine & Soul (diambil dari logo) -->
+    <color name="bark_brown">#4A2E20</color>
+    <color name="pine_needle">#3E4A33</color>
+    <color name="soft_olive">#7A7A55</color>
+    <color name="cone_brown">#8A5A3A</color>
+    <color name="cone_tan">#C08B5C</color>
+    <color name="sand">#E8CFAF</color>
+    <color name="sand_light">#F6EBDB</color>
+    <color name="cream">#FAF5EF</color>
+    <color name="text_secondary">#6B5648</color>
+    <color name="hint_brown">#7A6556</color>
+</resources>

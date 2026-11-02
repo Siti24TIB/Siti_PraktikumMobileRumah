@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pine_needle"
+    tools:context=".Home.Pertemuan5.LimaActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/pine_needle"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:subtitleTextAppearance="@style/ToolbarSubtitle"
+            app:subtitleTextColor="@color/sand"
+            app:titleTextAppearance="@style/ToolbarTitle"
+            app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cream"
+        android:clipToPadding="false"
+        android:padding="20dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnWebView"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:backgroundTint="@color/cone_brown"
+                android:fontFamily="@font/nunito_extrabold"
+                android:text="WEBVIEW"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/sand_light"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="6dp"
+                app:strokeColor="@color/sand"
+                app:strokeWidth="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Tentang Pine &amp; Soul"
+                android:textColor="@color/pine_needle"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/dmsans_regular"
+                android:text="Pine &amp; Soul adalah penginapan bernuansa hutan pinus untuk kamu yang ingin rehat sejenak dari hiruk pikuk kota. Setiap cabin dibangun dari kayu dengan suasana hangat dan tenang."
+                android:textColor="@color/bark_brown"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Suasana Sekitar"
+                android:textColor="@color/pine_needle"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/dmsans_regular"
+                android:text="Udara sejuk, kabut tipis di pagi hari, dan suara angin di sela pepohonan pinus. Cocok untuk membaca, ngopi santai, atau sekadar duduk di teras tanpa melakukan apa-apa."
+                android:textColor="@color/bark_brown"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Aturan Menginap"
+                android:textColor="@color/pine_needle"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/dmsans_regular"
+                android:text="Check-in mulai pukul 14.00 WIB dan check-out paling lambat pukul 11.00 WIB. Mohon menjaga ketenangan setelah pukul 22.00 agar tamu lain tetap nyaman beristirahat."
+                android:textColor="@color/bark_brown"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Kebersihan"
+                android:textColor="@color/pine_needle"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/dmsans_regular"
+                android:text="Kamar dibersihkan setiap hari. Mohon buang sampah pada tempat yang sudah disediakan agar hutan di sekitar tetap lestari."
+                android:textColor="@color/bark_brown"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Kebijakan Pembatalan"
+                android:textColor="@color/pine_needle"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/dmsans_regular"
+                android:text="Pembatalan gratis paling lambat 3 hari sebelum tanggal check-in. Setelah itu, biaya satu malam menginap akan dikenakan."
+                android:textColor="@color/bark_brown"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Hewan Peliharaan"
+                android:textColor="@color/pine_needle"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/dmsans_regular"
+                android:text="Hewan peliharaan kecil boleh dibawa ke cabin tertentu dengan konfirmasi terlebih dahulu kepada pengelola."
+                android:textColor="@color/bark_brown"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Layanan Tambahan"
+                android:textColor="@color/pine_needle"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/dmsans_regular"
+                android:text="Tersedia sarapan di teras, paket kayu bakar untuk perapian, dan penyewaan peralatan BBQ. Hubungi pengelola lewat tab Pesan."
+                android:textColor="@color/bark_brown"
+                android:textSize="14sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
